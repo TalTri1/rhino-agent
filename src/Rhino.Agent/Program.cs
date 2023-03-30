@@ -146,7 +146,7 @@ app.MapHub<RhinoHub>($"/api/v{AppSettings.ApiVersion}/rhino/orchestrator");
 #endregion
 
 #region *** Program       ***
-new CommandInvoker(Utilities.Types, args).Invoke();
+//new CommandInvoker(Utilities.Types, args).Invoke();
 #endregion
 
 // log
